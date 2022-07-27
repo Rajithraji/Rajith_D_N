@@ -1,0 +1,170 @@
+#menu{
+width: 100%;
+border: 1px solid gray;
+border-radius: 5px;
+margin: 0%;
+padding: 0%;
+}
+span{
+font-family: fantasy;
+margin-left: 8%;
+color:aliceblue;
+}
+i{
+    color: red;
+   /* margin: 4px; */
+}
+#maininput{
+margin-left: 18%;
+width: 20%;
+}
+#i1{
+    float: right;margin-right: 25px;
+}
+#i2{
+    float: right;margin-right: 16px;
+}
+#i3{
+    float: right;margin-right: 20px;
+}
+#menu{
+    position: relative;
+}
+ul{
+    z-index: auto;
+}
+li{
+    z-index: auto;
+    display: none;
+}
+select{
+    border: 1px solid white;
+    border-radius: 5px;
+
+}
+option{
+   padding: 9px;
+    text-align: center;
+    width: 60px;
+    opacity: 10%;
+    border: 1px solid white;
+    background-color:none;
+}
+/* ul{
+    position: absolute;
+   
+
+   
+    margin: 0%;
+}
+li{
+    padding: 3px;
+    display: block;
+text-align:center;
+margin-left: 0%;
+width: 60%;
+z-index: auto;
+float: left;
+border: 1px solid whitesmoke;
+
+
+border-radius: 2px;
+} */
+button ul:hover ul li{
+    display: block;
+}
+#preline{
+    color: azure;
+    opacity: 35%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: xx-large;
+}
+#comment-btn{
+    float: right; 
+    background-color: rgba(0, 115, 255, 0);
+     border: 1px solid white;
+     border-top-left-radius: 10px;
+     border-bottom-right-radius: 10px;
+     margin-right: 15px;
+     color: bisque;
+}
+#footer{
+    width: 100%;
+    margin-top: 32%; 
+   height: 150px;
+   border: 1px solid rgba(245, 245, 245, 0.582);
+  border-radius: 6px;
+ 
+  
+ /* position: absolute; */
+ position: relative;
+ overflow: auto;
+}
+.footer-div{
+float:left;
+color:white;
+width: 24.7%;
+text-align: center;
+height: 146px;
+}
+/* .footer-div p{
+    margin: 0%;
+font-size: x-large;
+
+    } */
+.footer-list{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.173);
+    text-align:center;
+    display: block;
+    padding: 0.9px;
+   
+}
+.footer-list a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.footer-list a:hover{
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    background-color:rgba(169, 169, 169, 0.404);
+   width: 100%;
+    color: red;
+    display:block;
+    
+   
+}
+.footer-div1{
+    display: contents;
+   height: 30px;
+   padding: 0%;
+}
+
+/* menubar */
+.footer-div9{
+    display: none;
+    width: 13%;
+    list-style: none;
+    position: absolute;
+}
+.footer-list9{
+    border: 1px solid;
+   display:block;
+ 
+   text-align: center;
+   border-top-right-radius: 16px;
+ border-bottom-left-radius: 16px;
+}
+.footer-list9:hover{
+   
+ background-color: rgba(240, 255, 255, 0.693);
+ color: coral;
+} 
+.footer-div9 a{
+    text-decoration: none;
+    color: coral;
+}
+.footer-div9 a:hover{
+    text-decoration: none;
+    color: coral;
+}
